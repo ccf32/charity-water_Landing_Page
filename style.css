@@ -188,6 +188,11 @@ body {
     width: 260px;
 }
 
+.hero-metric-card-left {
+    right: auto;
+    left: 24px;
+}
+
 .metric-card-inner {
     background-color: var(--cw-white);
     border-radius: 12px;
@@ -214,6 +219,11 @@ body {
 .metric-caption {
     margin: 0;
     color: var(--cw-charcoal);
+}
+
+.metric-highlight-yellow {
+    color: var(--cw-yellow);
+    font-weight: 600;
 }
 
 /* Responsive adjustments */
